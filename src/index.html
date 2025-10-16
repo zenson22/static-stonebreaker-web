@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/product.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="brand">Product Showcase</h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Categories</a>
+                        <div class="dropdown-content">
+                            <a href="pages/categories/phones.html">Phones</a>
+                            <a href="pages/categories/audio.html">Audio</a>
+                            <a href="pages/categories/smart-home.html">Smart Home</a>
+                            <a href="pages/categories/wearables.html">Wearables</a>
+                            <a href="pages/categories/accessories.html">Accessories</a>
+                        </div>
+                    </li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/products.html">Products</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h2>Discover curated products with vibrant design</h2>
+                <p>Hand-picked items, clear specs, beautiful imagery, and fast browsing.</p>
+                <a class="btn-primary" href="pages/products.html">Browse Products</a>
+            </div>
+        </section>
+
+        <section class="featured container">
+            <h2>Featured Products</h2>
+            <div id="product-list" class="product-grid">
+                <article class="product-card" style="--accent:#FF6B6B;">
+                    <div class="product-media" aria-hidden="true">📱</div>
+                    <h3>NeoPhone X</h3>
+                    <p class="price">$799 • 128GB</p>
+                    <p>Fast performance, stunning OLED display, long battery life.</p>
+                    <a class="btn-outline" href="pages/products.html">View details</a>
+                </article>
+
+                <article class="product-card" style="--accent:#4ECDC4;">
+                    <div class="product-media" aria-hidden="true">🎧</div>
+                    <h3>SoundPulse Pro</h3>
+                    <p class="price">$199 • Wireless</p>
+                    <p>Immersive audio, active noise cancellation, 30h playtime.</p>
+                    <a class="btn-outline" href="pages/products.html">View details</a>
+                </article>
+
+                <article class="product-card" style="--accent:#FFD166;">
+                    <div class="product-media" aria-hidden="true">💡</div>
+                    <h3>GlowSmart Lamp</h3>
+                    <p class="price">$59 • Smart</p>
+                    <p>Warm to cool light modes, app control, energy efficient.</p>
+                    <a class="btn-outline" href="pages/products.html">View details</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials container">
+            <h2>What customers say</h2>
+            <div class="testi-grid">
+                <blockquote>
+                    "Fast shipping and the product photos matched reality. Love it!"
+                    <footer>— Linh, HCM</footer>
+                </blockquote>
+                <blockquote>
+                    "Great support, easy returns. Packaging was premium."
+                    <footer>— An, Da Nang</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="newsletter container">
+            <h2>Contact Us</h2>
+            <p>Call us at (123) 456-789 for product inquiries and support</p>
+            <a href="tel:123456789" class="btn-primary">Call Now</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Product Showcase. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="pages/about.html">About</a> •
+                <a href="pages/products.html">Products</a> •
+                <a href="pages/contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>

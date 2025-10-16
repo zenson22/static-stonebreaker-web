@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Products — Product Showcase</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="brand"><a href="../index.html">Product Showcase</a></h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>All Products</h2>
+        <p class="muted">Filter by category or sort by popularity, price, or newest.</p>
+
+        <div class="filters">
+            <label>
+                Category:
+                <select>
+                    <option>All</option>
+                    <option>Audio</option>
+                    <option>Mobile</option>
+                    <option>Home</option>
+                </select>
+            </label>
+            <label>
+                Sort:
+                <select>
+                    <option>Recommended</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest</option>
+                </select>
+            </label>
+        </div>
+
+        <section class="product-grid">
+            <article class="product-card" style="--accent:#FF6B6B;">
+                <div class="product-media">📱</div>
+                <h3>NeoPhone X</h3>
+                <p class="price">$799</p>
+                <p>Flagship performance, pro camera and long battery life.</p>
+                <a class="btn-outline" href="#">Details</a>
+            </article>
+
+            <article class="product-card" style="--accent:#4ECDC4;">
+                <div class="product-media">🎧</div>
+                <h3>SoundPulse Pro</h3>
+                <p class="price">$199</p>
+                <p>Premium sound, comfortable fit, active noise cancellation.</p>
+                <a class="btn-outline" href="#">Details</a>
+            </article>
+
+            <article class="product-card" style="--accent:#FFD166;">
+                <div class="product-media">💡</div>
+                <h3>GlowSmart Lamp</h3>
+                <p class="price">$59</p>
+                <p>Smart light with adaptive color temperature and schedules.</p>
+                <a class="btn-outline" href="#">Details</a>
+            </article>
+
+            <article class="product-card" style="--accent:#C7F9CC;">
+                <div class="product-media">⌚</div>
+                <h3>FitWatch S</h3>
+                <p class="price">$129</p>
+                <p>Health tracking, GPS, and multi-day battery.</p>
+                <a class="btn-outline" href="#">Details</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Product Showcase</p>
+        </div>
+    </footer>
+</body>
+</html>
